@@ -26,7 +26,8 @@ end
 
 
 def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+
+#sets the 1st key of the :rent_in_dollars hash to a symbol, :one_piece_owned, whose value is the integer 25 (FAILED - 1)
 
 end
 
