@@ -26,7 +26,17 @@ end
 
 
 def monopoly_with_third_tier
-  
+  	monopoly = {
+		:railroads => {
+			:pieces => 4,
+			:names => {},
+			:rent_in_dollars => {
+			  {:one_piece_owned => 25}
+			}
+		}
+	}
+
+end
 #sets the 1st key of the :rent_in_dollars hash to a symbol, :one_piece_owned, whose value is the integer 25 (FAILED - 1)
 
 end
