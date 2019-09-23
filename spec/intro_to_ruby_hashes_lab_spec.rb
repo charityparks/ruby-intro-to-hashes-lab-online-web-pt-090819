@@ -93,7 +93,7 @@ describe "building a multidimensional monopoly hash" do
         expect(monopoly_with_third_tier.values[0][:names].values[0]).to eq({})
       end
 
-      it "sets the 2nd key of the :names hash to a symbol, :pennsylvania_railroad, whose value is an empty hash" do
+      it "sets the 2nd key of the :names hash to a symbol, :reading_railroad, whose value is an empty hash" do
 
         expect(monopoly_with_third_tier.keys.count).to eq(1)
         expect(monopoly_with_third_tier.values[0].values.count).to eq(3)
